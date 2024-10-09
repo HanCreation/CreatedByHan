@@ -60,7 +60,7 @@ const TechnicalSkillsPage: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8">Technical Skills</h1>
+      <h1 className="text-4xl font-bold mb-8">Anything Coded by Han</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white rounded-lg shadow-md p-6">
           <Globe className="w-12 h-12 text-blue-600 mb-4" />

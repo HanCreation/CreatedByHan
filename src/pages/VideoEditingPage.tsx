@@ -16,6 +16,13 @@ const videoProjects: VideoProject[] = [
     thumbnail: "https://media.discordapp.net/attachments/1292737012411011092/1292784843926671430/1696908457314.png?ex=6706f975&is=6705a7f5&hm=0c6ff078f5c9fcaab848cfad325d2b716cb12a5e3dee512b75198ddba7041fdc&=&format=webp&quality=lossless&width=935&height=935",
     youtubeLink: "https://www.instagram.com/reel/CyM9P6qpwUo/?igsh=aXpvdTdjNDY0eWk3",
     skills: ["Video Editing", "Motion Graphics", "Audio Editing", "After Effects", "3D", "Blender", "Adobe Premiere Pro", "Adobe Photoshop", "Adobe Suite","Sound Design", "Music Integration"]
+  },
+  {
+    title: 'Promotional Video TECHNO ARCADE 2023',
+    description: 'Created a promotional video for the TECHNO ARCADE 2023 event, highlighting the event details, activities, and special guests. The video was designed to generate excitement and anticipation for the event, showcasing the unique experience and entertainment that attendees can expect. The promotional video was shared on social media platforms to attract attendees and build interest in the event.',
+    thumbnail: 'https://media.discordapp.net/attachments/1292737012411011092/1292784843926671430/1696908457314.png?ex=6706f975&is=6705a7f5&hm=0c6ff078f5c9fcaab848cfad325d2b716cb12a5e3dee512b75198ddba7041fdc&=&format=webp&quality=lossless&width=935&height=935',
+    youtubeLink: 'https://www.instagram.com/reel/Cve1rB2hlVn/',
+    skills: ['Video Editing', 'Motion Graphics', 'Audio Editing', 'After Effects', 'Sound Design', 'Music Integration', 'Adobe Premiere Pro', 'Blender']
   }
 ]
 
@@ -23,8 +30,8 @@ const VideoEditingPage: React.FC = () => {
   const allSkills = Array.from(new Set(videoProjects.flatMap(project => project.skills))).sort() // Create a list of all unique skills from all projects
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8">Edited by Han</h1>
-      <h2 className="text-3xl font-bold mb-8">Skills:</h2>
+      <h1 className="text-4xl font-bold mb-8">Anything Edited by Han</h1>
+      {/* <h2 className="text-3xl font-bold mb-8">Speciality:</h2> */}
       <div className="grid grid-cols-2  md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
         <div className="bg-white rounded-lg shadow-md p-6">
           <Film className="w-12 h-12 text-purple-600 mb-4" />
@@ -52,7 +59,7 @@ const VideoEditingPage: React.FC = () => {
         </div>
       </div>
       <div className="mt-12">
-        <h2 className="text-3xl font-bold mb-6">Skills</h2>
+        <h2 className="text-3xl font-bold mb-6">Tools & Skills</h2>
         <div className="flex flex-wrap gap-2">
           {allSkills.map((skill, index) => (
             <span key={index} className="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded">
