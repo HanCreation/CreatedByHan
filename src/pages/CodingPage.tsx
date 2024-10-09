@@ -36,9 +36,15 @@ const technicalProjects: TechnicalProject[] = [
   },
   {
     title: "ResNet Image Classifier on CIFAR-10",
-    description: "Exploring the ResNet architecture, image augmentation, and training an image classifier on the CIFAR-10 dataset using  PyTorch. Analyzed and compared different model architechture and the impact of data augmentation on model performance.",
+    description: "Exploring the ResNet architecture, image augmentation, and training an image classifier on the CIFAR-10 dataset using  PyTorch. Analyzed and compared different model architecture and the impact of data augmentation on model performance.",
     skills: ["Python", "PyTorch", "Convolutional Neural Networks", "Image Classification", "Data Augmentation", "Paper Reading", "Computer Vision", "Deep Learning"],
     link: "https://github.com/HanCreation/ResNet-PyTorch"
+  },
+  {
+    title: 'Rebuilding Micrograd library from scratch',
+    description: 'Rebuilding the Micrograd library from scratch to understand the underlying math and operations of a simple deep learning library. Implemented forward and backward propagation, gradient descent, and backpropagation using only Python Syntax.',
+    skills: ['Python'],
+    link: 'https://github.com/HanCreation/micrograd'
   },
   {
     title:"MNIST Digit Classifier: Building a Neural Network from Scratch",
