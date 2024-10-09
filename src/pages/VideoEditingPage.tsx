@@ -13,7 +13,7 @@ const videoProjects: VideoProject[] = [
   {
     title: "After Movie TECHNO ARCADE 2023",
     description: "Edited an engaging after movie for the TECHNO ARCADE 2023 event, showcasing the highlights and excitement of the welcoming party event. In this project, I implemented 3D, with video editing, and also, I edited the credit roll using motion graphics in after Effects. The concept of the after movie is different from past concept. The after movie is well received by the audience with more than 10.000 views in event's instagram.",
-    thumbnail: "https://cdn.discordapp.com/attachments/1292737012411011092/1292784843926671430/1696908457314.png?ex=6704ff35&is=6703adb5&hm=a7b70ab5405e6fffea26a8f1ceb76c33e3a9b8a631ef8e7dcbb3b61875382c9c&",
+    thumbnail: "https://media.discordapp.net/attachments/1292737012411011092/1292784843926671430/1696908457314.png?ex=6706f975&is=6705a7f5&hm=0c6ff078f5c9fcaab848cfad325d2b716cb12a5e3dee512b75198ddba7041fdc&=&format=webp&quality=lossless&width=935&height=935",
     youtubeLink: "https://www.instagram.com/reel/CyM9P6qpwUo/?igsh=aXpvdTdjNDY0eWk3",
     skills: ["Video Editing", "Motion Graphics", "Audio Editing", "After Effects", "3D", "Blender", "Adobe Premiere Pro", "Adobe Photoshop", "Adobe Suite","Sound Design", "Music Integration"]
   }
