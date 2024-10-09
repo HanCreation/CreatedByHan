@@ -9,6 +9,11 @@ const Footer: React.FC = () => {
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             Orchestrated, Coded, and Created by Han 2024
           </p>
+          <div className="m-4">
+          <p className="text-sm text-slate-300 max-w-2xl mx-auto">
+            Built using React + Tailwind CSS
+          </p>
+          </div>
         </div>
       </div>
     </footer>

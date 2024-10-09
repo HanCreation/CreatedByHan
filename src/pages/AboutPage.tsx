@@ -123,7 +123,8 @@ const AboutPage: React.FC = () => {
           </p>
           <ul className="list-disc list-inside text-slate-600 mb-4">
             <li>Front-end web development</li>
-            <li>Machine learning and Deep Learning</li>
+            <li>Data Science</li>
+            <li>Machine learning and deep learning</li>
             <li>User Interface (UI) design</li>
             <li>Video editing</li>
           </ul>
