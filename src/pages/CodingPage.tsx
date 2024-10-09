@@ -19,7 +19,7 @@ const technicalProjects: TechnicalProject[] = [
     title:"Narrative Nest - Team Project",
     description: "Narrative Nest is an AI Image Generator powered storyboard creator web-app for filmmakers. Designed to make process of creating storyboards easier and faster. Users can prompt an AI to generate storyboard frames using SDXL Lightning API, making storyboard creation quick and efficient. I was responsible for the UI/UX design, front-end development, and integration with the AI model using Gradio API.",
     skills: ["React", "TypeScript", "Tailwind CSS", "Gradio", "UI/UX Design", "Front-End Development", "Teamwork", "Communication"],
-    link: "https://github.com/HanCreation/narrative-nest"
+    link: "https://hancreation.github.io/NarrativeNest-Demo/"
 
   },
   {
@@ -32,7 +32,7 @@ const technicalProjects: TechnicalProject[] = [
     title: "NeuroCraft: Craft your own Neural Network, no code",
     description: "NeuroCraft is a web application that is suited for deep learning beginners to explore the fundamental of neural network and craft their own neural networks architechture without writing any code. This web-app is suited for deep learning beginners to explore the fundamental of neural network such as linear/dense layer, batch-normalization layer, activation function, drop out layer, train accuracy and test accuracy. Datasets provided are basic datasets which are Digit MNIST and Fashion-MNIST dataset.",
     skills: ["React", "TypeScript", "Python", "PyTorch", "TailwindCSS", "Flask", "Neural Network", "Deep Learning"],
-    link: "https://neurocraft.netlify.app",
+    link: "https://github.com/HanCreation/NeuroCraft",
   },
   {
     title: "ResNet Image Classifier on CIFAR-10",
