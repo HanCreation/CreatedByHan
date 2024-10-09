@@ -19,7 +19,7 @@ const Header: React.FC = () => {
     <header className="bg-[#1f1f1f] text-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex items-center">
-          <img src="https://cdn.discordapp.com/attachments/1292737012411011092/1292737147689762826/Han_Creation_2021_Inverted_transparent.png?ex=6704d2c9&is=67038149&hm=bf89800fa1875ca3785d9fe6b8f4b9122e29a230c455407af7f833fd19825182&" alt="" className='w-28 h-full'/>
+          <img src="https://media.discordapp.net/attachments/1292737012411011092/1292854191307624530/Han_Creation_2021_Inverted_Transparent_.png?ex=67073a0b&is=6705e88b&hm=1f2d2b76860f68c2c3bc6e81b71f1de70f9888a1324bbeb7525c7a0fed57cfd4&=&format=webp&quality=lossless&width=1663&height=935" alt="Logo" className='w-28 h-full'/>
           {/* <span>Dean Hans</span> */}
         </Link>
         <nav className="hidden md:flex items-center">

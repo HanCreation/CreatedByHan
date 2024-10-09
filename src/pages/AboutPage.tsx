@@ -78,7 +78,7 @@ const achievements: Achievement[] = [
     issuer: 'LinkedIn Learning',
     year: 2024,
     description: 'Basics of Generative AI',
-    image: 'https://cdn.discordapp.com/attachments/1292737012411011092/1292738072873533482/373628516-7d050134-3757-4f72-a2a9-a5cf81154962.png?ex=6704d3a6&is=67038226&hm=c39ca146c911b46cf585e9ef6990a1c8f700d827fd48e484faf541c756fbe244&',
+    image: 'https://img.notionusercontent.com/s3/prod-files-secure%2F9dcc070c-c5fc-4a0b-821a-c013f8c775f3%2F8d1600a7-df1f-48e8-8949-75f3387b8fc6%2Fimage.png/size/w=1360?exp=1728543173&sig=QK_hCXfYP7YH3yobIqVi75CiLW7K-2LxDPDiFb0hNEA',
     href: 'https://www.linkedin.com/learning/certificates/02e96d009bbedb5e5cde71636db7ee00169e523fc3b7b7e10ce332ff410cedc5'
   },
   {
@@ -96,8 +96,8 @@ const achievements: Achievement[] = [
     issuer: 'Shift Academy',
     year: 2022,
     description: 'Basic Data Science - Data Science Implementation in Football - Data Science Tools',
-    image: 'https://cdn.discordapp.com/attachments/1292737012411011092/1292738048743702558/373630038-817d9dfe-241b-4565-b70e-cbbcba88f448.png?ex=6704d3a0&is=67038220&hm=0f2f4557f52d4cb8fb7b639ad4c283ba713579aa8d346c22f8d5e33fb744ec5d&',
-    href: 'https://cdn.discordapp.com/attachments/1292737012411011092/1292738048743702558/373630038-817d9dfe-241b-4565-b70e-cbbcba88f448.png?ex=6704d3a0&is=67038220&hm=0f2f4557f52d4cb8fb7b639ad4c283ba713579aa8d346c22f8d5e33fb744ec5d&'
+    image: 'https://img.notionusercontent.com/s3/prod-files-secure%2F9dcc070c-c5fc-4a0b-821a-c013f8c775f3%2F1e87fbef-aded-4fa8-a4cf-c503538d5954%2Fimage.png/size/w=1360?exp=1728543102&sig=gvQjZBl4Qt6n_k3OBtxUr_HTqr7Z70oBV9HmrPtBj8c',
+    href: 'https://img.notionusercontent.com/s3/prod-files-secure%2F9dcc070c-c5fc-4a0b-821a-c013f8c775f3%2F1e87fbef-aded-4fa8-a4cf-c503538d5954%2Fimage.png/size/w=1360?exp=1728543102&sig=gvQjZBl4Qt6n_k3OBtxUr_HTqr7Z70oBV9HmrPtBj8c'
   },
   
 
@@ -111,7 +111,7 @@ const AboutPage: React.FC = () => {
       <h1 className="text-4xl font-bold text-slate-800 mb-8 text-center">A Glimpse of Me</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-12">
         <div>
-          <img src="https://cdn.discordapp.com/attachments/1292737012411011092/1292737537076625429/formal1.png?ex=6704d326&is=670381a6&hm=c6c1857eb5aa48a5050855328c6fab4a4a683ff50cc8f425929a5b2edce437c8&" alt="Dean Hans Felandio Setiadi Saputra" className="rounded-lg shadow-md w-8/12 h-auto ml-20" />
+          <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F9dcc070c-c5fc-4a0b-821a-c013f8c775f3%2F34b4e335-17fb-4d54-9657-0cb25690dc4a%2Fe7855ca6-572c-48d3-bc20-68d8ceb54d0b.png/size/w=660?exp=1728543041&sig=3bZlJMujbmsGSUZydneuinhFUof3IYkqJV1VCyKpI0U" alt="Dean Hans Felandio Setiadi Saputra" className="rounded-lg shadow-md w-8/12 h-auto ml-20" />
         </div>
         <div>
           <h2 className="text-2xl font-semibold text-slate-700 mb-4">Hi, I'm Dean Hans Felandio Setiadi Saputra</h2>
