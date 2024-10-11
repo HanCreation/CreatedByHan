@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Video, Code } from "lucide-react";
 
+
 const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-white text-white">

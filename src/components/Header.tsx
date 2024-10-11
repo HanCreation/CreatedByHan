@@ -9,42 +9,29 @@ const Header: React.FC = () => {
   const isActive = (path: string) => location.pathname === path
 
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/video-editing', label: 'Edited by Han' },
-    { path: '/computer-science', label: 'Coded by Han' },
-    { path: '/about', label: 'About Me' },
+    // { path: '/', label: 'Home' },
+    // { path: '/video-editing', label: 'Edited by Han' },
+    // { path: '/computer-science', label: 'Coded by Han' },
+    // { path: '/about', label: 'About Me' },
   ]
 
   return (
     <header className="bg-[#1f1f1f] text-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex items-center">
-          <img src="https://media.discordapp.net/attachments/1292737012411011092/1292854191307624530/Han_Creation_2021_Inverted_Transparent_.png?ex=67073a0b&is=6705e88b&hm=1f2d2b76860f68c2c3bc6e81b71f1de70f9888a1324bbeb7525c7a0fed57cfd4&=&format=webp&quality=lossless&width=1663&height=935" alt="Logo" className='w-28 h-full'/>
+          <img src="https://media.discordapp.net/attachments/1292737012411011092/1292737147689762826/Han_Creation_2021_Inverted_transparent.png?ex=67097009&is=67081e89&hm=d0539032f4ec3ba6a70cc8fcca927530b05f5b3d42cbc36cfac5ae185d5af003&=&format=webp&quality=lossless&width=907&height=509" alt="Logo" className='w-28 h-full'/>
           {/* <span>Dean Hans</span> */}
         </Link>
         <nav className="hidden md:flex items-center">
-          <ul className="flex space-x-6">
-            {navItems.map((item) => (
-              <li key={item.path}>
-                <Link
-                  to={item.path}
-                  className={`hover:text-teal-300 transition-colors ${
-                    isActive(item.path) ? 'text-teal-300' : ''
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          {/* <a
-            href="/john-doe-cv.pdf"
+          
+          <a
+            href="https://cdn.discordapp.com/attachments/1292737012411011092/1294155812507222057/CV_-_Dean_Hans.pdf?ex=6709fc05&is=6708aa85&hm=7f48610334e5e5ef4de2edd1a4fb9ce50c030600c3325010f693f767466474e6&"
             download
             className="ml-6 bg-teal-500 hover:bg-teal-600 text-white py-2 px-4 rounded-full transition-colors flex items-center"
           >
             <FileText className="mr-2" size={18} />
-            Download Resume
-          </a> */}
+            Download CV
+          </a>
         </nav>
         <button
           className="md:hidden"
@@ -53,35 +40,7 @@ const Header: React.FC = () => {
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
-      {isMenuOpen && (
-        <nav className="md:hidden mt-4">
-          <ul className="flex flex-col space-y-2">
-            {navItems.map((item) => (
-              <li key={item.path}>
-                <Link
-                  to={item.path}
-                  className={`block py-2 px-4 hover:bg-slate-700 transition-colors ${
-                    isActive(item.path) ? 'bg-slate-700' : ''
-                  }`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-            <li>
-              <a
-                href="/john-doe-cv.pdf"
-                download
-                className="block py-2 px-4 hover:bg-slate-700 transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Download Resume
-              </a>
-            </li>
-          </ul>
-        </nav>
-      )}
+      
     </header>
   )
 }

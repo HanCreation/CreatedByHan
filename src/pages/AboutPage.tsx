@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Award, BookOpen, X, ExternalLink, GraduationCap, Briefcase , FileText} from 'lucide-react'
-
+import { Award, BookOpen, X, ExternalLink, GraduationCap, Briefcase } from 'lucide-react'
+import CodingPage from "./CodingPage";
 
 interface Achievement {
   type: 'certificate' | 'course'
@@ -78,7 +78,7 @@ const achievements: Achievement[] = [
     issuer: 'LinkedIn Learning',
     year: 2024,
     description: 'Basics of Generative AI',
-    image: 'https://img.notionusercontent.com/s3/prod-files-secure%2F9dcc070c-c5fc-4a0b-821a-c013f8c775f3%2F8d1600a7-df1f-48e8-8949-75f3387b8fc6%2Fimage.png/size/w=1360?exp=1728543173&sig=QK_hCXfYP7YH3yobIqVi75CiLW7K-2LxDPDiFb0hNEA',
+    image: 'https://media.discordapp.net/attachments/1292737012411011092/1292738072873533482/373628516-7d050134-3757-4f72-a2a9-a5cf81154962.png?ex=670970e6&is=67081f66&hm=af3467cfa2d5ab8fb5ff285e33f33b228ec38b0bfa5ea5acec98bfe11aebd79c&=&format=webp&quality=lossless&width=747&height=577',
     href: 'https://www.linkedin.com/learning/certificates/02e96d009bbedb5e5cde71636db7ee00169e523fc3b7b7e10ce332ff410cedc5'
   },
   {
@@ -96,8 +96,8 @@ const achievements: Achievement[] = [
     issuer: 'Shift Academy',
     year: 2022,
     description: 'Basic Data Science - Data Science Implementation in Football - Data Science Tools',
-    image: 'https://img.notionusercontent.com/s3/prod-files-secure%2F9dcc070c-c5fc-4a0b-821a-c013f8c775f3%2F1e87fbef-aded-4fa8-a4cf-c503538d5954%2Fimage.png/size/w=1360?exp=1728543102&sig=gvQjZBl4Qt6n_k3OBtxUr_HTqr7Z70oBV9HmrPtBj8c',
-    href: 'https://img.notionusercontent.com/s3/prod-files-secure%2F9dcc070c-c5fc-4a0b-821a-c013f8c775f3%2F1e87fbef-aded-4fa8-a4cf-c503538d5954%2Fimage.png/size/w=1360?exp=1728543102&sig=gvQjZBl4Qt6n_k3OBtxUr_HTqr7Z70oBV9HmrPtBj8c'
+    image: 'https://media.discordapp.net/attachments/1292737012411011092/1292738048743702558/373630038-817d9dfe-241b-4565-b70e-cbbcba88f448.png?ex=670970e0&is=67081f60&hm=4e975e8e2349ab2d47c1e9cad70b6b91f6fd70a2d4f14dbbafc936179d9ac7e8&=&format=webp&quality=lossless&width=1321&height=935',
+    href: 'https://media.discordapp.net/attachments/1292737012411011092/1292738048743702558/373630038-817d9dfe-241b-4565-b70e-cbbcba88f448.png?ex=670970e0&is=67081f60&hm=4e975e8e2349ab2d47c1e9cad70b6b91f6fd70a2d4f14dbbafc936179d9ac7e8&=&format=webp&quality=lossless&width=1321&height=935'
   },
   
 
@@ -108,10 +108,10 @@ const AboutPage: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold text-slate-800 mb-8 text-center">A Glimpse of Me</h1>
+      {/* <h1 className="text-4xl font-bold text-slate-800 mb-8 text-center">Hello!!</h1> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-12">
         <div>
-          <img src="https://img.notionusercontent.com/s3/prod-files-secure%2F9dcc070c-c5fc-4a0b-821a-c013f8c775f3%2F34b4e335-17fb-4d54-9657-0cb25690dc4a%2Fe7855ca6-572c-48d3-bc20-68d8ceb54d0b.png/size/w=660?exp=1728543041&sig=3bZlJMujbmsGSUZydneuinhFUof3IYkqJV1VCyKpI0U" alt="Dean Hans Felandio Setiadi Saputra" className="rounded-lg shadow-md w-8/12 h-auto ml-20" />
+          <img src="https://media.discordapp.net/attachments/1292737012411011092/1292737537076625429/formal1.png?ex=67097066&is=67081ee6&hm=dcb59cfb405848c79cda4ff20bef152e49d3081507e490df3616615ab765537a&=&format=webp&quality=lossless&width=935&height=935" alt="Dean Hans Felandio Setiadi Saputra" className="rounded-lg shadow-md w-8/12 h-auto ml-20" />
         </div>
         <div>
           <h2 className="text-2xl font-semibold text-slate-700 mb-4">Hi, I'm Dean Hans Felandio Setiadi Saputra</h2>
@@ -131,14 +131,7 @@ const AboutPage: React.FC = () => {
           <p className="text-slate-600 mb-6">
             Other than that, I'm also an activist of HIMTI BINUS. I participated as a co-coordinator design and documentation division for a HIMTI BINUS' welcoming party (TECHNO ARCADE 2023).
           </p>
-          {/* <a
-            href="/john-doe-cv.pdf"
-            download
-            className=" bg-teal-500 text-white py-2 px-6 rounded-full hover:bg-teal-600 transition-colors text-lg font-semibold flex items-center"
-          >
-            <FileText className="mr-2" size={18} />
-            Download Resume
-          </a> */}
+          
         </div>
       </div>
       
@@ -153,12 +146,12 @@ const AboutPage: React.FC = () => {
               <h3 className="font-semibold text-lg text-slate-700">{edu.degree}</h3>
               <p className="text-slate-600">{edu.institution}</p>
               <p className="text-slate-500">{edu.year} - Present</p>
-            <p className="text-slate-600 mt-2">GPA: {edu.GPA}</p>
+            {/* <p className="text-slate-600 mt-2">GPA: {edu.GPA}</p> */}
             </div>
           ))}
         </div>
       </div>
-
+      <CodingPage/>
       <div className="mb-12">
         <h2 className="text-3xl font-bold text-slate-800 mb-6 flex items-center">
           <Briefcase className="mr-2" /> Experience
