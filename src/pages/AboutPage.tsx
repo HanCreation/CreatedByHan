@@ -78,7 +78,7 @@ const achievements: Achievement[] = [
     issuer: 'LinkedIn Learning',
     year: 2024,
     description: 'Basics of Generative AI',
-    image: 'public/WhatIsGenAI.png',
+    image: '/WhatIsGenAI.png',
     href: 'https://www.linkedin.com/learning/certificates/02e96d009bbedb5e5cde71636db7ee00169e523fc3b7b7e10ce332ff410cedc5'
   },
   {
@@ -96,8 +96,8 @@ const achievements: Achievement[] = [
     issuer: 'Shift Academy',
     year: 2022,
     description: 'Basic Data Science - Data Science Implementation in Football - Data Science Tools',
-    image: 'public/ImplementasiDataScience.png',
-    href: 'public/ImplementasiDataScience.png'
+    image: '/ImplementasiDataScience.png',
+    href: '/ImplementasiDataScience.png'
   },
   
 
@@ -111,7 +111,7 @@ const AboutPage: React.FC = () => {
       {/* <h1 className="text-4xl font-bold text-slate-800 mb-8 text-center">Hello!!</h1> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-12 items-center">
         <div>
-          <img src="src/assets/formal1.png" alt="Dean Hans Felandio Setiadi Saputra" className="rounded-lg shadow-md w-8/12 h-auto ml-20" />
+          <img src="/formal1.png" alt="Dean Hans Felandio Setiadi Saputra" className="rounded-lg shadow-md w-8/12 h-auto ml-20" />
         </div>
         <div>
           <h2 className="text-6xl font-bold mb-4">Dean Hans Felandio Setiadi Saputra</h2>
