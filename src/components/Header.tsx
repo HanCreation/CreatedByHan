@@ -19,13 +19,13 @@ const Header: React.FC = () => {
     <header className="bg-[#1f1f1f] text-white p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold flex items-center">
-          <img src="/Han Creation 2021 Inverted Transparent .png" alt="Logo" className='w-28 h-full'/>
+          <img src="Han Creation 2021 Inverted Transparent .png" alt="Logo" className='w-28 h-full'/>
           {/* <span>Dean Hans</span> */}
         </Link>
         <nav className="hidden md:flex items-center">
           
           <a
-            href="/CV - Dean Hans-1.pdf"
+            href="CV - Dean Hans-1.pdf"
             download
             className="ml-6 bg-teal-500 hover:bg-teal-600 text-white py-2 px-4 rounded-full transition-colors flex items-center"
           >
