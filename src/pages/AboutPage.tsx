@@ -65,6 +65,16 @@ const experienceData: Experience[] = [
 const achievements: Achievement[] = [
   {
     type: 'course',
+    title: 'Belajar Data Science',
+    issuer: 'Dicoding Indonesia ',
+    year: 2024,
+    description: 'Data Understanding - Data Science - Data Analysis - Machine Learning - SQL - Excel - Tableu',
+    image: 'BelajarDataScience.jpg',
+    href: 'https://www.dicoding.com/certificates/JLX14G7EJX72'
+
+  },
+  {
+    type: 'course',
     title: 'Introduction to Machine Learning US',
     issuer: 'Great Learning',
     year: 2024,
