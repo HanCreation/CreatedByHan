@@ -78,7 +78,7 @@ const achievements: Achievement[] = [
     issuer: 'LinkedIn Learning',
     year: 2024,
     description: 'Basics of Generative AI',
-    image: 'https://media.discordapp.net/attachments/1292737012411011092/1292738072873533482/373628516-7d050134-3757-4f72-a2a9-a5cf81154962.png?ex=670970e6&is=67081f66&hm=af3467cfa2d5ab8fb5ff285e33f33b228ec38b0bfa5ea5acec98bfe11aebd79c&=&format=webp&quality=lossless&width=747&height=577',
+    image: 'public/WhatIsGenAI.png',
     href: 'https://www.linkedin.com/learning/certificates/02e96d009bbedb5e5cde71636db7ee00169e523fc3b7b7e10ce332ff410cedc5'
   },
   {
@@ -96,8 +96,8 @@ const achievements: Achievement[] = [
     issuer: 'Shift Academy',
     year: 2022,
     description: 'Basic Data Science - Data Science Implementation in Football - Data Science Tools',
-    image: 'https://media.discordapp.net/attachments/1292737012411011092/1292738048743702558/373630038-817d9dfe-241b-4565-b70e-cbbcba88f448.png?ex=670970e0&is=67081f60&hm=4e975e8e2349ab2d47c1e9cad70b6b91f6fd70a2d4f14dbbafc936179d9ac7e8&=&format=webp&quality=lossless&width=1321&height=935',
-    href: 'https://media.discordapp.net/attachments/1292737012411011092/1292738048743702558/373630038-817d9dfe-241b-4565-b70e-cbbcba88f448.png?ex=670970e0&is=67081f60&hm=4e975e8e2349ab2d47c1e9cad70b6b91f6fd70a2d4f14dbbafc936179d9ac7e8&=&format=webp&quality=lossless&width=1321&height=935'
+    image: 'public/ImplementasiDataScience.png',
+    href: 'public/ImplementasiDataScience.png'
   },
   
 
@@ -107,18 +107,19 @@ const AboutPage: React.FC = () => {
   const [selectedAchievement, setSelectedAchievement] = useState<Achievement | null>(null)
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-12 mt-10">
       {/* <h1 className="text-4xl font-bold text-slate-800 mb-8 text-center">Hello!!</h1> */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-12 items-center">
         <div>
-          <img src="https://media.discordapp.net/attachments/1292737012411011092/1292737537076625429/formal1.png?ex=67097066&is=67081ee6&hm=dcb59cfb405848c79cda4ff20bef152e49d3081507e490df3616615ab765537a&=&format=webp&quality=lossless&width=935&height=935" alt="Dean Hans Felandio Setiadi Saputra" className="rounded-lg shadow-md w-8/12 h-auto ml-20" />
+          <img src="src/assets/formal1.png" alt="Dean Hans Felandio Setiadi Saputra" className="rounded-lg shadow-md w-8/12 h-auto ml-20" />
         </div>
         <div>
-          <h2 className="text-2xl font-semibold text-slate-700 mb-4">Hi, I'm Dean Hans Felandio Setiadi Saputra</h2>
-          <p className="text-slate-600 mb-4">
-          I'm a dedicated and detail-oriented computer science student & scholarship student mentor with keen curiosity in front-end web development, data science, machine learning, deep learning and video editor with a unique blend of technical and creative skills. My journey in the world of technology and digital media has been driven by a constant curiosity.
+          <h2 className="text-6xl font-bold mb-4">Dean Hans Felandio Setiadi Saputra</h2>
+          <p className="text-slate-600 mb-4 text-2xl">
+          {/* I'm a dedicated and detail-oriented computer science student & scholarship student mentor with keen curiosity in front-end web development, data science, machine learning, deep learning and video editor with a unique blend of technical and creative skills. My journey in the world of technology and digital media has been driven by a constant curiosity. */}
+          Front-End Developer | Machine Learning Enthusiast | Data Science Enthusiast
           </p>
-          <p className="text-slate-600 mb-4">
+          {/* <p className="text-slate-600 mb-4">
             My expertise spans across various domains:
           </p>
           <ul className="list-disc list-inside text-slate-600 mb-4">
@@ -130,7 +131,7 @@ const AboutPage: React.FC = () => {
           </ul>
           <p className="text-slate-600 mb-6">
             Other than that, I'm also an activist of HIMTI BINUS. I participated as a co-coordinator design and documentation division for a HIMTI BINUS' welcoming party (TECHNO ARCADE 2023).
-          </p>
+          </p> */}
           
         </div>
       </div>
